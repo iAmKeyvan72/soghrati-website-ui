@@ -179,7 +179,7 @@ section.hero .container {
   display: flex;
   flex-direction: column;
   padding: 50px 20px 100px;
-  background-image: url(/assets/hero-back.png);
+  background-image: url(./assets/hero-back.png);
   background-position: bottom center;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -342,6 +342,11 @@ li.experience h4 {
   border-radius: 5px;
   font-size: 14px;
 }
+
+.tasks .dot-border{
+  text-transform: uppercase;
+}
+
 .job-desc li {
   font-size: 14px;
   padding: 5px 0;
@@ -475,5 +480,6 @@ footer .socials li {
   }
   .job-desc {
     width: 40%;
+    padding-left: 10px;
   }
 }

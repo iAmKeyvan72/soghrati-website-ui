@@ -30,7 +30,7 @@
           </div>
           <h3>Little about me</h3>
           <p>
-            I'm a 35-year-old programmer and have been coding since I was 14.
+            I'm a <span id='age'></span>-year-old programmer and have been coding since I was 14.
             I've built several softwares, lead teams, consulted on many aspects
             of software development and even tried running tech startups.
           </p>
@@ -61,7 +61,7 @@
 
         <div class="hero-image">
           <div class="border-out">
-            <img src="/assets/header.png" alt="Milad Soghrati" srcset="" />
+            <img src="./assets/header.png" alt="Milad Soghrati" srcset="" />
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
           </p>
           <ul class="hobbies">
             <li><i class="icon-running"></i>Running & Swimming</li>
-            <li><i class="icon-news"></i>Following news</li>
+            <li><i class="icon-news"></i>Watch sports</li>
             <li><i class="icon-tv"></i>Watching documentaries & tv series</li>
             <li><i class="icon-history"></i>Reading history</li>
             <li>
@@ -98,19 +98,17 @@
           <h3>My skills</h3>
           <ul>
             <li class="solid-border">C#</li>
-            <li class="solid-border">NodeJS</li>
-            <li class="solid-border">Python</li>
             <li class="solid-border">C++</li>
+            <li class="solid-border">.Net Core</li>
             <li class="solid-border">JavaScript</li>
-            <li class="solid-border">.netCore</li>
-            <li class="solid-border">ReactJS</li>
-            <li class="solid-border">React Native</li>
             <li class="solid-border">Domain Driven Design</li>
+            <li class="solid-border">ReactJS</li>
             <li class="solid-border">Microservice</li>
             <li class="solid-border">Object Oriented Design</li>
             <li class="solid-border">Docker</li>
             <li class="solid-border">Kubernetis</li>
             <li class="solid-border">Linux & Windows</li>
+            <li class="solid-border">Azure</li>
             <li class="solid-border">MySQL</li>
             <li class="solid-border">SQL Server</li>
           </ul>
@@ -123,76 +121,210 @@
         <h3 class="gradient-underline">Experiences</h3>
         <ul>
           <li class="experience">
-            <span class="light-text desktop">Oct 2019 - Present</span>
+            <span class="light-text desktop">Jun 2021 - Present</span>
             <div class="job-info">
-              <h4>CTO</h4>
-              <span class="light-text mobile">Oct 2019 - Present</span>
+              <h4>Senior Software Engineer</h4>
+              <span class="light-text mobile">Jun 2021 - Present</span>
               <div class="job-location">
-                <span>drdr</span>
-                <span class="light-text">@iran</span>
+                <span>Knab</span>
+                <span class="light-text">@netherlands</span>
               </div>
-              <a href="https://drdr.ir" title="DrDr">https://drdr.ir</a>
+              <a href="https://knab.nl" title="Knab">knab.nl</a>
               <ul class="tasks">
+                <li class="dot-border">.Net Core</li>
                 <li class="dot-border">Microservice</li>
-                <li class="dot-border">Scalability</li>
-                <li class="dot-border">Code Quality</li>
+                <li class="dot-border">AWS</li>
+                <li class="dot-border">Terraform</li>
+                <li class="dot-border">MongoDb</li>
               </ul>
             </div>
             <ul class="job-desc">
-              <li>Diagnose Software Scalability Issues</li>
-              <li>Improve Resource Utilization and Service Performance</li>
-              <li>
-                Increase Homogeneity and Decrease Coupling in Microservices
-              </li>
-              <li>Implement Agile Software Development Process</li>
-              <li>Docker / Microservices / PHP / PostgreSql</li>
+              <li>Backend developer in team "IT Daily Use"</li>
+              <li>Making the great product even better</li>
             </ul>
           </li>
           <li class="experience">
-            <span class="light-text desktop">Apr 2016 - Oct 2019</span>
+            <span class="light-text desktop">Sep 2020 - May 2021</span>
             <div class="job-info">
               <h4>software engineering consultant</h4>
-              <span class="light-text mobile">Apr 2016 - Oct 2019</span>
+              <span class="light-text mobile">Sep 2020 - May 2021</span>
               <div class="job-location">
-                <span>Jaroob</span>
+                <span>Freelance</span>
                 <span class="light-text">@iran</span>
               </div>
-              <a href="https://jaroob.ir" title="Jaroob">https://jaroob.ir</a>
               <ul class="tasks">
-                <li class="dot-border">Microservice</li>
-                <li class="dot-border">Scalability</li>
-                <li class="dot-border">FRONTEND DEVELOPMENT</li>
+                <li class="dot-border">Software Architecure</li>
+                <li class="dot-border">Quality Assurance</li>
+                <li class="dot-border">Team Building</li>
               </ul>
             </div>
             <ul class="job-desc">
-              <li>
-                Plan Migration From Monolithic Architecture to Microservices
-              </li>
-              <li>Implement Agile Software Development Process</li>
-              <li>Node / React / Docker / MongoDb / Kubernetes</li>
+              <li>Consulted 'Iran Airtour' airline</li>
+              <li>Consulted startups e.g. <a href="https://drdr.ir">drdr.ir</a>, <a href="https://www.jaroob.ir/">jaroob.ir</a></li>
+              <li>Implement agile software development process</li>
+              <li>Secure software development</li>
+              <li>Aviation software platform analysis</li>
             </ul>
           </li>
           <li class="experience">
-            <span class="light-text desktop">Feb 2013 - Apr 2016</span>
+            <span class="light-text desktop">Nov 2019 - Nov 2020</span>
             <div class="job-info">
               <h4>Engineering manager</h4>
-              <span class="light-text mobile">Feb 2013 - Apr 2016</span>
+              <span class="light-text mobile">Nov 2019 - Nov 2020</span>
               <div class="job-location">
                 <span>Hanatech iot</span>
-                <span class="light-text">@remote</span>
+                <span class="light-text">@remote > canada</span>
               </div>
               <a href="https://hanatech.ca" title="Hanatech iot"
-                >https://hanatech.ca</a
+                >hanatech.ca</a
               >
               <ul class="tasks">
-                <li class="dot-border">REMOTE</li>
-                <li class="dot-border">FRONTEND DEVELOPMENT</li>
-                <li class="dot-border">BACKEND DEVELOPMENT</li>
+                <li class="dot-border">Microservices</li>
+                <li class="dot-border">.net core</li>
+                <li class="dot-border">React</li>
+                <li class="dot-border">Docker</li>
+                <li class="dot-border">Kubernetes</li>
               </ul>
             </div>
             <ul class="job-desc">
-              <li>Design and Implementation of Realtime IoT Solutions</li>
-              <li>Node / .Net Core / React / Docker / Kubernetes</li>
+              <li>Designed and implemented of realtime IoT solutions</li>
+              <li>Manage software development process</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Jun 2017 - Jun 2020</span>
+            <div class="job-info">
+              <h4>Engineering manager</h4>
+              <span class="light-text mobile">Jun 2017 - Jun 2020</span>
+              <div class="job-location">
+                <span>Parham Group</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <a href="https://parham-co.ir/" title="Parham Group"
+                >parham-co.ir</a
+              >
+              <ul class="tasks">
+                <li class="dot-border">.net core</li>
+                <li class="dot-border">Azure</li>
+                <li class="dot-border">RabbitMQ</li>
+                <li class="dot-border">Redis</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Managed software development lifecycle</li>
+              <li>Implemented agile practices</li>
+              <li>Empowered development teams to improve code quality</li>
+              <li>Implemented QA process</li>
+              <li>Built fast and scalable mobile service delivery platform</li>
+              <li>Built fast and reliable Event-based Social Network App</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Jun 2015 - Jun 2017</span>
+            <div class="job-info">
+              <h4>Senior software engineer</h4>
+              <span class="light-text mobile">Jun 2015 - Jun 2017</span>
+              <div class="job-location">
+                <span>Parham Group</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <a href="https://parham-co.ir/" title="Parham Group"
+                >parham-co.ir</a
+              >
+              <ul class="tasks">
+                <li class="dot-border">asp.net</li>
+                <li class="dot-border">sql server</li>
+                <li class="dot-border">Redis</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Built scalable text message sending service</li>
+              <li>Developed VOD mobile app which reached to 1M daily active users</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Sep 2012 - Jan 2015</span>
+            <div class="job-info">
+              <h4>Software developer</h4>
+              <span class="light-text mobile">Sep 2012 - Jan 2015</span>
+              <div class="job-location">
+                <span>Kahroba</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <a href="https://www.fanavari-kahroba.com/index_en.php" title="Kahroba"
+                >fanavari-kahroba.com</a
+              >
+              <ul class="tasks">
+                <li class="dot-border">C++</li>
+                <li class="dot-border">C#</li>
+                <li class="dot-border">GPGPU (C++ AMP, CUDA)</li>
+                <li class="dot-border">Image Processing</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Developed SDKs and hardware interface software</li>
+              <li>Developed nanometric-thin layer measurement software based on image processing and regressive curve fitting</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Feb 2010 - Sep 2012</span>
+            <div class="job-info">
+              <h4>.net developer</h4>
+              <span class="light-text mobile">Feb 2010 - Sep 2012</span>
+              <div class="job-location">
+                <span>Simorgh Co.</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <ul class="tasks">
+                <li class="dot-border">C#</li>
+                <li class="dot-border">Windows Forms</li>
+                <li class="dot-border">WPF</li>
+                <li class="dot-border">SQL Server</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Developed retail management software</li>
+              <li>Developed personal accounting software</li>
+              <li>Documented software requirements</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Jul 2008 - Feb 2010</span>
+            <div class="job-info">
+              <h4>.net developer (part-time)</h4>
+              <span class="light-text mobile">Jul 2008 - Feb 2010</span>
+              <div class="job-location">
+                <span>Aria Diesel</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <ul class="tasks">
+                <li class="dot-border">C#</li>
+                <li class="dot-border">Windows Forms</li>
+                <li class="dot-border">SQL Server</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Developed Customer Support System Software</li>
+              <li>Extracted and documented software requirements</li>
+            </ul>
+          </li>
+          <li class="experience">
+            <span class="light-text desktop">Jul 2007 - Jul 2008</span>
+            <div class="job-info">
+              <h4>.net developer (part-time)</h4>
+              <span class="light-text mobile">Jul 2007 - Jul 2008</span>
+              <div class="job-location">
+                <span>Karamad HR Services</span>
+                <span class="light-text">@iran</span>
+              </div>
+              <ul class="tasks">
+                <li class="dot-border">C#</li>
+                <li class="dot-border">Windows Forms</li>
+                <li class="dot-border">SQL Server</li>
+              </ul>
+            </div>
+            <ul class="job-desc">
+              <li>Designed and developed resume & candidate management software</li>
             </ul>
           </li>
         </ul>
@@ -217,4 +349,10 @@
       </div>
     </footer>
   </body>
+  <script>
+    var date = new Date(1986,6,2);
+    var now = Date.now();
+    var diff =(now - date.getTime()) / (1000 * 60 * 60 * 24);
+    document.getElementById("age").innerHTML = Math.abs(Math.round(diff/365.25));
+</script>
 </html>
