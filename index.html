@@ -30,9 +30,10 @@
           </div>
           <h3>Little about me</h3>
           <p>
-            I'm a <span id='age'></span>-year-old programmer and have been coding since I was 14.
-            I've built several softwares, lead teams, consulted on many aspects
-            of software development and even tried running tech startups.
+            I'm a <span id="age"></span>-year-old programmer and have been
+            coding since I was 14. I've built several softwares, lead teams,
+            consulted on many aspects of software development and even tried
+            running tech startups.
           </p>
           <ul class="socials">
             <li>
@@ -54,6 +55,13 @@
                 href="https://www.linkedin.com/in/milad665/"
                 title="Linkedin account of Milad Soghrati"
                 class="icon-linkedin"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/milad665"
+                title="Github account of Milad Soghrati"
+                class="icon-github"
               ></a>
             </li>
           </ul>
@@ -159,7 +167,10 @@
             </div>
             <ul class="job-desc">
               <li>Consulted 'Iran Airtour' airline</li>
-              <li>Consulted startups e.g. <a href="https://drdr.ir">drdr.ir</a>, <a href="https://www.jaroob.ir/">jaroob.ir</a></li>
+              <li>
+                Consulted startups e.g. <a href="https://drdr.ir">drdr.ir</a>,
+                <a href="https://www.jaroob.ir/">jaroob.ir</a>
+              </li>
               <li>Implement agile software development process</li>
               <li>Secure software development</li>
               <li>Aviation software platform analysis</li>
@@ -174,9 +185,7 @@
                 <span>Hanatech iot</span>
                 <span class="light-text">@remote > canada</span>
               </div>
-              <a href="https://hanatech.ca" title="Hanatech iot"
-                >hanatech.ca</a
-              >
+              <a href="https://hanatech.ca" title="Hanatech iot">hanatech.ca</a>
               <ul class="tasks">
                 <li class="dot-border">Microservices</li>
                 <li class="dot-border">.net core</li>
@@ -238,7 +247,9 @@
             </div>
             <ul class="job-desc">
               <li>Built scalable text message sending service</li>
-              <li>Developed VOD mobile app which reached to 1M daily active users</li>
+              <li>
+                Developed VOD mobile app which reached to 1M daily active users
+              </li>
             </ul>
           </li>
           <li class="experience">
@@ -250,7 +261,9 @@
                 <span>Kahroba</span>
                 <span class="light-text">@iran</span>
               </div>
-              <a href="https://www.fanavari-kahroba.com/index_en.php" title="Kahroba"
+              <a
+                href="https://www.fanavari-kahroba.com/index_en.php"
+                title="Kahroba"
                 >fanavari-kahroba.com</a
               >
               <ul class="tasks">
@@ -262,7 +275,10 @@
             </div>
             <ul class="job-desc">
               <li>Developed SDKs and hardware interface software</li>
-              <li>Developed nanometric-thin layer measurement software based on image processing and regressive curve fitting</li>
+              <li>
+                Developed nanometric-thin layer measurement software based on
+                image processing and regressive curve fitting
+              </li>
             </ul>
           </li>
           <li class="experience">
@@ -323,7 +339,9 @@
               </ul>
             </div>
             <ul class="job-desc">
-              <li>Designed and developed resume & candidate management software</li>
+              <li>
+                Designed and developed resume & candidate management software
+              </li>
             </ul>
           </li>
         </ul>
@@ -344,14 +362,20 @@
               class="icon-linkedin"
             ></a>
           </li>
+
+          <li>
+            <a href="https://github.com/milad665" class="icon-github"></a>
+          </li>
         </ul>
       </div>
     </footer>
   </body>
   <script>
-    var date = new Date(1986,6,2);
+    var date = new Date(1986, 6, 2);
     var now = Date.now();
-    var diff =(now - date.getTime()) / (1000 * 60 * 60 * 24);
-    document.getElementById("age").innerHTML = Math.abs(Math.round(diff/365.25));
-</script>
+    var diff = (now - date.getTime()) / (1000 * 60 * 60 * 24);
+    document.getElementById('age').innerHTML = Math.abs(
+      Math.round(diff / 365.25)
+    );
+  </script>
 </html>
