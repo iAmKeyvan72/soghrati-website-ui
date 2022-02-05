@@ -320,11 +320,14 @@ section.about .container {
   border-radius: 5px;
 }
 
-.experiences {
+.center {
   text-align: center;
 }
 li.experience {
   margin: 80px auto;
+}
+li.education {
+  margin: 30px auto;
 }
 li.experience:first-child {
   margin-top: 30px;
@@ -353,10 +356,29 @@ li.experience h4 {
   text-transform: uppercase;
 }
 
-.job-desc li {
+.education img {
+  width: 100px;
+  margin: 20px auto;
+}
+.education .job-desc li {
   font-size: 14px;
   padding: 5px 0;
 }
+
+.video-adventure {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+video {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
 footer {
   text-align: center;
 }
@@ -430,6 +452,15 @@ footer .socials li {
   .skills {
     margin: 0 0 0 50px;
     max-width: 300px;
+  }
+  .video-adventure {
+    flex-direction: row;
+    text-align: left;
+  }
+  video {
+    width: 50%;
+    max-width: initial;
+    margin: 0 50px;
   }
 }
 @media screen and (min-width: 900px) {
